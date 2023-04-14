@@ -1,0 +1,10 @@
+<div *ngIf="loading$ | async" class="text-center">
+    <app-loading></app-loading>
+</div>
+
+
+<div *ngFor="let item of chapters" >
+    <div class="rounded-3xl border-image">
+        <img [src]="item" alt="image not found">
+    </div>
+</div>

@@ -1,0 +1,39 @@
+<section class=" mb-11">
+    <div *ngIf="loading$ | async" class="text-center">
+        <app-loading></app-loading>
+    </div>
+
+    <!-- Button trigger modal -->
+
+    <div class="text-center p-2 mb-3 flex justify-between">
+        <button (click)="back()"
+            class="inline-flex items-center px-4 py-2 mb-3 bg-[#7d75f8] hover:bg-indigo-600 text-white text-sm font-medium rounded-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
+            </svg>
+
+            Back
+        </button>
+        <div>
+            <h1 class="text-black text-3xl  font-serif">{{state.provider}}</h1>
+            <p class="text-black font-light  font-serif">{{state.webtoons}}</p>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 xl:grid-cols-8 lg:grid-cols-6 md:grid-cols-6 sm:grid-cols-4 m-2  gap-4 content-center" >
+        <div *ngFor="let item of mangaInfo$ |async"
+            class="flex flex-col rounded-lg shadow-md overflow-hidden cursor-pointer "style="width: 9.5rem"
+            (click)="openDialog('1000ms', '500ms', item.contentURL)">
+            <div
+                style="height:13rem; background-image: url({{this.state.mangaImage}}); background-size: cover;">
+                <div class="flex items-center justify-center h-full w-full bg-neutral-800] bg-opacity-50 rounded-lg">
+                    <div class="text-center bg-gray-50 bg-opacity-80 p-2 desc-box ">
+                        <p class="text-black text-lg uppercase md:text-lg font-serif">{{item.shortTitle}} </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

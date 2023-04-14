@@ -1,0 +1,597 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>ng-tailwind documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">ng-tailwind documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content miscellaneous-variables">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Miscellaneous</li>
+  <li>Variables</li>
+</ol>
+
+<section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <ul class="index-list">
+                        <li>
+                            <a href="#environmentDev" title="src/app/env/environment.ts" ><b>environmentDev</b>&nbsp;&nbsp;&nbsp;(src/.../environment.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#mockChapter" title="src/app/services/testing-mocks.ts" ><b>mockChapter</b>&nbsp;&nbsp;&nbsp;(src/.../testing-mocks.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#mockgetMangasWithPagination" title="src/app/services/testing-mocks.ts" ><b>mockgetMangasWithPagination</b>&nbsp;&nbsp;&nbsp;(src/.../testing-mocks.ts)</a>
+                        </li>
+                        <li>
+                            <a href="#mockgetProviders" title="src/app/services/testing-mocks.ts" ><b>mockgetProviders</b>&nbsp;&nbsp;&nbsp;(src/.../testing-mocks.ts)</a>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+    <h3>src/app/env/environment.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="environmentDev"></a>
+                    <span class="name">
+                        <span ><b>environmentDev</b></span>
+                        <a href="#environmentDev"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{
+    production: false,
+    apiKey: &#x27;devKey&#x27;,
+    xRapidAPIKey: &#x27;9de4204524msh0551532297bfd79p1d5cdajsne0c199dee2d7&#x27;,
+    xRapidAPIHost: &#x27;manga-scrapper.p.rapidapi.com&#x27;
+}</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+</section>
+    <h3>src/app/services/testing-mocks.ts</h3>
+    <section>
+    <h3></h3>    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mockChapter"></a>
+                    <span class="name">
+                        <span ><b>mockChapter</b></span>
+                        <a href="#mockChapter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/ChaptersInterface.html" target="_self" >ChaptersInterface[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    {
+        &quot;provider_webtoon&quot;: &quot;surya_k-ex-life-hunter&quot;,
+        &quot;slug&quot;: &quot;k-ex-life-hunter-chapter-86&quot;,
+        &quot;fullTitle&quot;: &quot;990k Ex-Life Hunter Chapter 86&quot;,
+        &quot;shortTitle&quot;: &quot;Chapter 86&quot;,
+        &quot;chapterNum&quot;: &quot;86&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/990k-ex-life-hunter-chapter-86/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;4497&quot;,
+        &quot;chapterNav&quot;: {
+            &quot;nextSlug&quot;: &quot;k-ex-life-hunter-chapter-87&quot;,
+            &quot;nextURL&quot;: &quot;https://suryascans.com/990k-ex-life-hunter-chapter-87/&quot;,
+            &quot;prevSlug&quot;: &quot;&quot;,
+            &quot;prevURL&quot;: &quot;&quot;
+        },
+        &quot;contentURL&quot;: [
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/00-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/01-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/02-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/03-3.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/04-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/05-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/06-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/07-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/08-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/09-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/10-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/11-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/12-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/13-2.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/14-1.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/15-1.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/16.jpg&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/17-1.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/18-1.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/19-1.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/20.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/21.webp&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-01-10T00:00:00Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-11T17:06:25Z&quot;
+    },
+    {
+        &quot;provider_webtoon&quot;: &quot;surya_k-ex-life-hunter&quot;,
+        &quot;slug&quot;: &quot;k-ex-life-hunter-chapter-87&quot;,
+        &quot;fullTitle&quot;: &quot;990k Ex-Life Hunter Chapter 87&quot;,
+        &quot;shortTitle&quot;: &quot;Chapter 87&quot;,
+        &quot;chapterNum&quot;: &quot;87&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/990k-ex-life-hunter-chapter-87/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;4682&quot;,
+        &quot;chapterNav&quot;: {
+            &quot;nextSlug&quot;: &quot;&quot;,
+            &quot;nextURL&quot;: &quot;&quot;,
+            &quot;prevSlug&quot;: &quot;k-ex-life-hunter-chapter-86&quot;,
+            &quot;prevURL&quot;: &quot;https://suryascans.com/990k-ex-life-hunter-chapter-86/&quot;
+        },
+        &quot;contentURL&quot;: [
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/00-7.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/01-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/02-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/03-9.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/04-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/05-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/06-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/07-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/08-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/09-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/10-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/11-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/12-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/13-8.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/14-7.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/15-6.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/16-4.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/17-5.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/18-4.webp&quot;,
+            &quot;https://suryascans.com/wp-content/uploads/2023/01/19-4.webp&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-01-28T00:00:00Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-11T17:06:23Z&quot;
+    }
+]</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>mockChapter</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mockgetMangasWithPagination"></a>
+                    <span class="name">
+                        <span ><b>mockgetMangasWithPagination</b></span>
+                        <a href="#mockgetMangasWithPagination"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;fighters&quot;,
+        &quot;title&quot;: &quot;Fighters&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/fighters/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;780&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/09/fighters.jpg&quot;,
+        &quot;synopsis&quot;: &quot;The Genius Fighter Jason Kim. However his winning streak ends with an accident during match, and he couldn’t use his left arm anymore. After defeat, he quit the pro scene and returned to hometown, but the life is just hard to live quietly for such fighter. He’s getting involved into endless fights, regardless of his will.. Korean Version of the: Dexter Attack&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Delinquents&quot;,
+            &quot;Mature&quot;,
+            &quot;School Life&quot;,
+            &quot;Sports&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:11Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;i-am-not-the-son-of-luck&quot;,
+        &quot;title&quot;: &quot;I am not the Son of Luck&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/i-am-not-the-son-of-luck/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;1625&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/09/2-cover-new.jpg&quot;,
+        &quot;synopsis&quot;: &quot;After traversing to cultivation world, Shen Tian found that he could see the luck and chances of other people around him. With the idea of rubbing the aura of protagonist, Shen Tian began to take the initiative to befriend those sons of luck. Later, everyone gradually found out that no matter who it was with Shen Tian, as long as they practice with him, they were bound to encounter great fortune, that to without any exception! From that day on, Shen Tian became the most popular mascot in the cultivation world.&quot;,
+        &quot;genre&quot;: [
+            &quot;Adventure&quot;,
+            &quot;Comedy&quot;,
+            &quot;Cultivation&quot;,
+            &quot;Drama&quot;,
+            &quot;Martial Arts&quot;,
+            &quot;Reincarnation&quot;,
+            &quot;Shounen&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:13Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;i-am-unbeatable&quot;,
+        &quot;title&quot;: &quot;I am Unbeatable&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/i-am-unbeatable/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;2823&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/11/cover-image-inja.webp&quot;,
+        &quot;synopsis&quot;: &quot;Skill is a very important factor in a person’s life, and there’s him who has a strong body and a violent nature. Woo-Hyuk lived suppressing it. One day, Woo-Hyuk accidentally ends up in “Club Peach” and catches the eyes of Yun-Bin, who manages it. Yun-Bin already knows what Woo-Hyuk is capable of, so she asks him to serve her, but little does the charmed Woo-Hyuk knows that he has already stepped into a world prone to illegals. So, what will await him? Honor or Demise?&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Delinquents&quot;,
+            &quot;Drama&quot;,
+            &quot;Gang&quot;,
+            &quot;Shounen&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:15Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;i-became-a-genius-salesman&quot;,
+        &quot;title&quot;: &quot;I became a Genius Salesman&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/i-became-a-genius-salesman/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;774&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/09/eng-cover-genius-salesman.webp&quot;,
+        &quot;synopsis&quot;: &quot;A forever inferior salesman becomes a genius salesman! ​ Medical salesman ‘Ji-hoon’ sells with diligence and sincerity in everything, But he always falls behind ‘Chief Choi’, who monopolizes sales performance through all kinds of lobbying and illegal acts. Even so, Jihoon, who is not swayed by bad temptations and treats other people with sincerity discovers a very special ability,..&quot;,
+        &quot;genre&quot;: [
+            &quot;Comedy&quot;,
+            &quot;Drama&quot;,
+            &quot;Shounen&quot;,
+            &quot;Supernatural&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:17Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;judge-lee-han-young&quot;,
+        &quot;title&quot;: &quot;Judge Lee Han Young&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/judge-lee-han-young/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;5030&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2023/03/judge-lee-han-young-sr-ch-2.webp&quot;,
+        &quot;synopsis&quot;: &quot;Judge Lee, who believed justice could be realized in the courtroom, did not follow the orders of his superiors and sentenced the conglomerate to life in prison before being killed.But is it because of the shenanigans he heard as a child? With all his memories, Lee gets a second life chance.The world needs him, Lee, the heretic of the judiciary, who knows only justice.&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Drama&quot;,
+            &quot;Law&quot;,
+            &quot;Seinen&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:19Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;k-ex-life-hunter&quot;,
+        &quot;title&quot;: &quot;990k Ex-Life Hunter&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/990k-ex-life-hunter/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;4495&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2023/01/newimg-990k_result.webp&quot;,
+        &quot;synopsis&quot;: &quot;As an F-Rank hunter, Kang Hyeonjun struggles to make a living in a world where dungeons exist and monsters are real. But after repeatedly failing to pull his weight in raids and being chewed out by fellow party members, his self-esteem hits rock bottom. To make matters worse, his girlfriend, who has climbed the ranks during their time together, dumps him on their one-year anniversary. When Hyeonjun returns home that night in a drunken haze, he finds himself walking into a dreamscape instead of his humble studio. There, a man claiming to be one of his past lives offers to make him stronger. But as the saying goes, if there’s no pain, there’s no gain. Will Hyeonjun be able to endure multiple trials and finally obtain the strength he so desperately desires?&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Adventure&quot;,
+            &quot;Dungeons&quot;,
+            &quot;Fantasy&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:08Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;memoir-of-the-legendary-scholar&quot;,
+        &quot;title&quot;: &quot;Memoir of the Legendary Scholar&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/memoir-of-the-legendary-scholar/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;1817&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/10/resource.jpg&quot;,
+        &quot;synopsis&quot;: &quot;‘Kim Si-seup’, a man destined to fight for the rest of his life with a cluster of another world. He was known as a prodigy since childhood, but fate didn’t help him. The painter that came to find out about the identity of the woman who appears in his dream every night, only speaks incomprehensible words…”The world isn’t everything you see. Maybe there is a world we didn’t know existed…something like that.”As he lives in this world, he found out about the existence of another world. The poor man who fights alone in order to protect this world’s life and obligation, the story of ‘Kim Si-Seup’ begins! A back and forth crossover historical fantasy between Joseon and Seoul!  – Read at suryascans.com and support us!&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Adventure&quot;,
+            &quot;Drama&quot;,
+            &quot;Fantasy&quot;,
+            &quot;Historical&quot;,
+            &quot;Martial Arts&quot;,
+            &quot;Shounen&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:21Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;modern-dude-in-the-murim&quot;,
+        &quot;title&quot;: &quot;Modern Dude in the Murim&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/modern-dude-in-the-murim/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;3072&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/12/moden-guy-murim.webp&quot;,
+        &quot;synopsis&quot;: &quot;I was civil service examination taker struggling hard to survive, when I got hit by a speeding vehicle while doing food deliveries at night. I remember dying due to the hit-and-run accident, but… ‘…I’m Cho Hwi?’ When I woke up, I had become the second son of the Cho Family Smithy. In this new life, I had neither invincible martial strength nor unmatched political influence, only a huge debt that threatened the lives of my entire family. However, I still had one trump card left! “Father, please let me inherit the Cho Family’s Smithy.”This is the Success story of a modern-day blue-collar worker who uses his knowledge and experience to thrive in the world of murim! —————————————————— “Modern Dude in the Murim” is updated on Thursday every week.&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Adventure&quot;,
+            &quot;Fantasy&quot;,
+            &quot;Historical&quot;,
+            &quot;Martial Arts&quot;,
+            &quot;Murim&quot;,
+            &quot;Shounen&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:24Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;monarch&quot;,
+        &quot;title&quot;: &quot;Monarch&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/monarch/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;368&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/09/monarch-series-eng-00.webp&quot;,
+        &quot;synopsis&quot;: &quot;Asthmatic patient desperately learns MMA to avenge his brother “Jegal Cheon”, who was a mixed martial arts figher. In order to challenge MMA EMPEROR F.C. Heavyweight World Champion ‘Riber “DARK” Quesera’. This is the battle story of fighting and defeating countless strong men. Chapter 1-4 Done by void-scans.com&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Drama&quot;,
+            &quot;Shounen&quot;,
+            &quot;Sports&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:26Z&quot;
+    },
+    {
+        &quot;provider&quot;: &quot;surya&quot;,
+        &quot;slug&quot;: &quot;my-luck-is-max-level&quot;,
+        &quot;title&quot;: &quot;My Luck is Max Level&quot;,
+        &quot;sourceURL&quot;: &quot;https://suryascans.com/manga/my-luck-is-max-level/&quot;,
+        &quot;shortURL&quot;: &quot;https://suryascans.com/?p&#x3D;224&quot;,
+        &quot;coverURL&quot;: &quot;https://suryascans.com/wp-content/uploads/2022/09/myluckismaxlevel.webp&quot;,
+        &quot;synopsis&quot;: &quot;A virtual reality game ‘The end of the world’ with the hardest difficulty level, Han Sung who was once the top class Ranker, He’s now stuck inside the game!It’s hard to survive with the insufficient current stats. However, Han Sung’s luck is max level!It’s normal to find SSS-class skill when he opens a random box! Hits the jackpot when he spins the slot machine!His luck is exploding!Will Lee Han Sung be able to clear this disastrous game safely?&quot;,
+        &quot;genre&quot;: [
+            &quot;Action&quot;,
+            &quot;Adventure&quot;,
+            &quot;Games&quot;,
+            &quot;Shounen&quot;,
+            &quot;System&quot;,
+            &quot;Virtual Reality&quot;
+        ],
+        &quot;createdAt&quot;: &quot;2023-03-10T05:37:52Z&quot;,
+        &quot;updatedAt&quot;: &quot;2023-03-10T05:42:28Z&quot;
+    }
+]</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>mock for getMangasWithPagination</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="mockgetProviders"></a>
+                    <span class="name">
+                        <span ><b>mockgetProviders</b></span>
+                        <a href="#mockgetProviders"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>[]</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[
+    {
+        &quot;slug&quot;: &quot;luminous&quot;,
+        &quot;name&quot;: &quot;Luminous Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://luminousscans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;asura&quot;,
+        &quot;name&quot;: &quot;Asura Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://www.asurascans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;omega&quot;,
+        &quot;name&quot;: &quot;Omega Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://omegascans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;cosmic&quot;,
+        &quot;name&quot;: &quot;Cosmic Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://cosmicscans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;night&quot;,
+        &quot;name&quot;: &quot;Night Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://nightscans.org/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;flame&quot;,
+        &quot;name&quot;: &quot;Flame Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://flamescans.org/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;void&quot;,
+        &quot;name&quot;: &quot;Void Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://void-scans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;surya&quot;,
+        &quot;name&quot;: &quot;Surya Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://suryascans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;anigli&quot;,
+        &quot;name&quot;: &quot;Anigli Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://anigliscans.com/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;arena&quot;,
+        &quot;name&quot;: &quot;Arena Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://arenascans.net/&quot;
+    },
+    {
+        &quot;slug&quot;: &quot;realm&quot;,
+        &quot;name&quot;: &quot;Realm Scans&quot;,
+        &quot;baseURL&quot;: &quot;https://realmscans.com/&quot;
+    }
+]</code>
+                    </td>
+                </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><p>Mock for getProviders</p>
+</div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</section>
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'miscellaneous-variables';
+            var COMPODOC_CURRENT_PAGE_URL = 'variables.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
